@@ -100,6 +100,54 @@ div p.red h3 { color: red }
         </section>
 
         <section>
+          <section>
+            <h2>Namic convention</h2>
+            <p>
+                <pre><code data-trim contenteditable style="padding:20px">
+  .block {}
+  .block__element {}
+  .block--modifier {}
+                </code></pre>
+            </p>  
+          </section>
+          
+          <section>
+            <h2>Namic convention example</h2>
+            <p>
+                <pre><code data-trim contenteditable style="padding:20px">
+.site-search {} /* Block */
+.site-search__field {} /* Element */
+.site-search--full {} /* Modifier */
+                </code></pre>
+            </p>  
+          </section>
+
+          <section>
+            <h2>Example</h2>
+            <p>
+                <pre><code data-trim contenteditable style="padding:20px">
+<form class="site-search  full">
+    <input type="text" class="field">
+    <input type="Submit" value ="Search" class="button">
+</form>
+                </code></pre>
+            </p>  
+          </section>
+
+          <section>
+            <h2>Example</h2>
+            <p>
+                <pre><code data-trim contenteditable style="padding:20px">
+<form class="site-search  site-search--full">
+    <input type="text" class="site-search__field">
+    <input type="Submit" value ="Search" class="site-search__button">
+</form>
+                </code></pre>
+            </p>  
+          </section>
+        </section>
+
+        <section>
           <h2>Additional materials</h2>
           <p>
             <ul style="font-size:25px">
